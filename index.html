@@ -1,0 +1,86 @@
+<!-- q:)->-</: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.3/math.min.js"></script>
+    <script src="http://algebra.js.org/javascripts/algebra-0.2.6.min.js"></script>
+</head>
+<body>
+        
+    
+        <H1>Calculadora de Nulidad e Imagen</H1>
+
+        <br>
+        
+        <font face="arial, verdana">
+            <p>Un saludito vespertino, este es un programa que determina la base para Nu(A) y la Im(A) con A&isin;M<sub>mxn</sub>.</p>
+
+        <p>Por favor ingresa el valor de m</p>
+        <input type="number" id="filas">
+
+        <p>Por favor ingresa el valor de n</p>
+        <input type="number" id="columnas">
+
+        <input type="button" value="crear sistema" onclick="crear()">
+        
+        
+        <div id="Tables" ></div>
+        <br>
+        <br>
+        <div id="combinacionLineal" ></div>
+        <br>
+        <br>
+        <div id="BaseNu" ></div>
+        <br>
+        <br>
+        <div id="BaseIm" ></div>
+        <br>
+        <br>
+        <div id="Resultados2"></div>
+
+        <br>
+        <br>
+        <div id="Resultados3" ></div>
+        
+    
+        <br>
+        <br>
+        <div id="Resultados"></div>
+        <div id="Soluciones"></div>
+        <div id="Imprimir"></div>
+        <!--parte de linealmente independientes-->
+        <div id="independiente" ></div>
+        <br>
+        <br>
+        <div id="Resultados2LI"></div>
+
+        <br>
+        <br>
+        <div id="Resultados3LI" ></div>
+        
+    
+        <br>
+        <br>
+        <div id="ResultadosLI"></div>
+        <div id="SolucionesLI"></div>
+        <div id="ImprimirLI"></div>
+
+        
+        </font>
+
+        
+    
+    
+    <script src="js/crearNu.js"></script>
+    <script src="js/crearLi.js"></script>
+    
+
+    <script src="js/validarNumeros.js"></script>
+    
+
+</body>
+</html>
